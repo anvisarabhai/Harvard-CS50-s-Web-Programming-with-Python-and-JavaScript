@@ -4,17 +4,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="in">
     <nav>
         <div class="lastcorner" style="padding-left:90%">
             <a href="index.html">Google Search</a>
         </div>
     </nav>
     <img src="imageggl.JPG">
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
+    <form action="https://www.google.com/search" method="GET">
+    <input type="text" name="q">
+    <input type="hidden" name="tbm" value="isch">
+    <input type="submit" value="Search">
+</form>
 </body>
 
 </html>
