@@ -104,3 +104,9 @@
 .advan{
     background-color:#4D90FE
 }
+.btnrow{
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px;
+}
